@@ -7,7 +7,7 @@ class TestAppServlet extends ScalatraServlet {
   val WelcomeMessage = "Yes this is the controller, how may I help you?"
 
   get("/") {
-    "Yes this is the controller, how may I help you?"
+    WelcomeMessage
   }
 
   get("/:name") {

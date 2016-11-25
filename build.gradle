@@ -19,6 +19,7 @@ dependencies {
     compile "org.eclipse.jetty:jetty-webapp:9.4.0.RC1"
     testCompile "junit:junit:4.12"
     testCompile "org.scalatest:scalatest_2.11:2.2.6"
+    testCompile "org.scalatra:scalatra-scalatest_2.11:2.4.1"
     testRuntime "org.scala-lang.modules:scala-xml_2.11:1.0.5"
 }
 
