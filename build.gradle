@@ -7,6 +7,7 @@ ext {
 
 repositories {
     mavenLocal()
+    jcenter()
     maven { url 'http://midasmavenrepo.ccd1.root4.net/nexus/content/groups/public' }
     maven { url 'http://midasmavenrepo.ccd1.root4.net/nexus/content/groups/netbank-norway-repositories' }
     maven { url 'http://midasmavenrepo.ccd1.root4.net/nexus/content/repositories/netbank-norway-releases' }
@@ -39,5 +40,5 @@ artifacts {
 }
 
 task wrapper(type: Wrapper) {
-    distributionUrl = "http://midasmavenrepo.ccd1.root4.net/nexus/content/repositories/netbank-norway-releases/no/nordea/gradle/gradle-wrapper/${gradleWrapperVersion}/gradle-wrapper-${gradleWrapperVersion}-bin.zip"
+    distributionUrl = "https://services.gradle.org/distributions/gradle-2.7-all.zip"
 }
