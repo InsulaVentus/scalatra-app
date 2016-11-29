@@ -17,12 +17,15 @@ dependencies {
     compile "org.scala-lang:scala-library:2.11.8"
     compile "org.scalatra:scalatra_2.11:2.4.1"
     compile "javax.servlet:javax.servlet-api:3.1.0"
-    compile "org.eclipse.jetty:jetty-webapp:9.4.0.RC1"
+    compile "org.eclipse.jetty:jetty-webapp:9.2.13.v20150730"
     testCompile "junit:junit:4.12"
     testCompile "org.scalatest:scalatest_2.11:2.2.6"
     testCompile "org.scalatra:scalatra-scalatest_2.11:2.4.1"
     testRuntime "org.scala-lang.modules:scala-xml_2.11:1.0.5"
 }
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
 project.version = '0.0.1-SNAPSHOT'
 
